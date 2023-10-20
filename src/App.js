@@ -4,17 +4,15 @@ import Contato  from './Components/Pages/Contato'
 import Compania from './Components/Pages/Compania'
 import Produto from './Components/Pages/Produto'
 import Container from './Components/Layout/Container'
+import Navbar from './Components/Layout/Navbar'
+import Footer from './Components/Layout/Footer'
 
 function App() {
   return (
+
 <Router>
-        <div>
-        <Link to="/">Home</Link>
-        <Link to="/produto">Produto</Link>
-        <Link to="/compania">Compania</Link>
-        <Link to="/contato">Contato</Link>
-        </div>
- <Container>
+  <Navbar/>
+  <Container customClass="min-height">
   <Routes>
       <Route exact path='/' element={<Home />} />
       <Route exact path='/Produto' element={<Produto />} />
@@ -22,6 +20,7 @@ function App() {
       <Route exact path='/Contato' element={<Contato />} />
   </Routes>
  </Container> 
+ <Footer/>
 </Router>
     
   );
