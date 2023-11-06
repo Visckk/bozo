@@ -1,5 +1,5 @@
-function Produto(){
-    return <h1>Produto</h1>
+function HOME(){
+    return <h1>HOME</h1>
 }
 
-export default Produto
+export default HOME
