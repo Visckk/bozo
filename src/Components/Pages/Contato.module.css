@@ -1,0 +1,21 @@
+
+    .Conteudo{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    p {
+    font-size: 20px;
+    }
+
+    input{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    }
+    
+    button{
+        margin-top: 10px;
+        height: 100%;
+        width: 100%;
+    }
