@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Container from "./Container";
-
+import logo from "../../logos.png"
 import styles from "./Navbar.module.css";
 
 
@@ -15,13 +15,11 @@ function Navbar() {
         </Link>
         <ul className={styles.list}>
           <li className={styles.item}>
-            <Link to="/">Home</Link>
+            <Link to="/">Inicio</Link>
           </li>
+          
           <li className={styles.item}>
-            <Link to="/Produto">Produto</Link>
-          </li>
-          <li className={styles.item}>
-            <Link to="/Compania">Compania</Link>
+            <Link to="/Perguntas">Perguntas</Link>
           </li>
           <li className={styles.item}>
             <Link to="/Contato">Contato</Link>

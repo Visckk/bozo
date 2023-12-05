@@ -1,4 +1,9 @@
 
+    .Contato{
+    margin-left: 40%;
+    justify-content: center;
+    align-items: center;
+    }
     .Conteudo{
         text-align: center;
         align-items: center;
@@ -14,8 +19,16 @@
     width: 100%;
     }
     
-    button{
-        margin-top: 10px;
-        height: 100%;
-        width: 100%;
+    .Contact_btn{
+        
+            justify-content: space-between;
+            width: auto;
+            align-items: center;
+            height: 10%;
+            width: 100%;
+            border-radius: 48px;  
+        }
+        
+        .Contact_btn:hover{
+            background-color: #fceeaf;
     }

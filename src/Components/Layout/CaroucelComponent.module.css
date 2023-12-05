@@ -1,0 +1,16 @@
+.Carousel{
+    height: 30px;
+    width: 100px;
+}
+
+.Carousel .slide{
+    width: 10px;
+
+}
+
+.View{
+padding-top: 10px;
+height: auto;
+width: auto;
+background-image: none;
+}

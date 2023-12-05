@@ -11,14 +11,14 @@ function Contato(){
       Brasil,Sp
         </p>
       <p>
-       Telefone:(11)0000000
+       Telefone:55 (11)0000000
         </p>
       <p>
-         Email: NomeParaCriar@mail.com
+         Email: LuveViewTech@mail.com
         </p>
 
     </div>
-    <p>Let's get in touch. Send me a message:</p>
+    
 
     <form action="/action_page.php" target="_blank">
       <p><input className={styles.input} type="text" placeholder="Name" required name="Name"/></p>
@@ -26,7 +26,7 @@ function Contato(){
       <p><input className={styles.input} type="text" placeholder="Subject" required name="Subject"/></p>
       <p><input className={styles.input} type="text" placeholder="Message" required name="Message"/></p>
       <p>
-        <button >
+        <button className={styles.Contact_btn} >
          SEND MESSAGE
         </button>
       </p>
